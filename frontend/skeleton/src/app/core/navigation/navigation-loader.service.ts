@@ -33,6 +33,18 @@ export class NavigationLoaderService {
           }
         ]
       },
+      {
+        type: 'subheading',
+        label: 'Gestión',
+        children: [
+          {
+            type: 'link',
+            label: 'Productos',
+            route: '/products',
+            icon: 'mat:shopping_cart' // Usa un ícono adecuado
+          }
+        ]
+      }
     ]);
   }
 }

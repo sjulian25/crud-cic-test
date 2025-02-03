@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Product } from '../models/product.model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +11,8 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  getProducts() {
-    return this.http.get(`${this.apiUrl}/products`);
+  getProducts(): Observable<Product[]> {
+    return this.http.get<Product[]>(`${this.apiUrl}/products`);
   }
 
   createProduct(product: any) {
@@ -18,4 +20,7 @@ export class ApiService {
   }
 
   // TODO: faltan metodos para actualizar y borrar
+  deleteProduct(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/products/${id}`);
+  }
 }
