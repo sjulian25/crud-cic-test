@@ -48,12 +48,4 @@ Instrucciones necesario para cargar la base de datos o migrar los modelos de dat
 
 ## Consejos Adicionales
 
-Aquí hay algunos consejos extra para aprovechar al máximo tu README:
-
-- Mantén cada sección lo más concisa posible. Evita la información innecesaria, ya que puede ser abrumadora para el lector.
-- Asegúrate de que tus instrucciones de instalación, despliegue sean detalladas y precisas. Si hay pasos adicionales que el lector necesita tomar (como instalar dependencias extra), asegúrate de incluirlos.
-- Los visuales (imágenes, GIFs) son muy útiles para transmitir rápidamente lo que hace tu proyecto y cómo usarlo. Si puedes, incluye capturas de pantalla de tu aplicación en acción o GIFs que demuestren su uso.
-
 ---
-
-⌨️ con ❤️ por [Brayan Diaz C](https://github.com/brayandiazc) 😊
