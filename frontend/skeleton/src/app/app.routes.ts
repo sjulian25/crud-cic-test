@@ -13,7 +13,6 @@ export const appRoutes: VexRoutes = [
 ];
 
 export const routes: Routes = [
-  // ... Otras rutas existentes
   { 
     path: 'products',
     component: ProductListComponent 
@@ -26,4 +25,6 @@ export const routes: Routes = [
     path: 'products/edit/:id',
     component: ProductFormComponent 
   }
+
+  // TODO: faltan rutas y layouts para update y delete
 ];
